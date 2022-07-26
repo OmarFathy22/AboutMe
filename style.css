@@ -19,9 +19,7 @@ main{
     margin-top: 30px;
     justify-content: space-around;
 }
- section{
-    border:  1px solid red;
- }
+
 .sec{
     /* border: 1px solid red; */
     width: 50%;
