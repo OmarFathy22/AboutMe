@@ -19,7 +19,9 @@ main{
     margin-top: 30px;
     justify-content: space-around;
 }
-
+ section{
+    border:  1px solid red;
+ }
 .sec{
     /* border: 1px solid red; */
     width: 50%;
@@ -72,4 +74,28 @@ main{
     width: 50%;
     text-align: center;
     margin: 10px auto;
+}
+h3{
+    font-style: italic;
+}
+@media  (max-width: 500px){
+    main{
+        flex-direction: column;
+    }
+    .sec{
+        width: 100%;
+    }
+    .sec h1 , h3{
+        text-align: center;
+    }
+    .sec{
+        padding : 10px 0 15px 0;
+    }
+    .myimg{
+        width: 80%;
+        text-align: center;
+        margin: 10px auto;
+        
+    }
+    
 }
